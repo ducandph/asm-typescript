@@ -15,40 +15,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
     />
-    <!-- <link rel="stylesheet" href="./css/app.css" /> -->
+   
     <link rel="stylesheet" href="./css/tailwind.css" />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script>
-      const slides = document.querySelector(".slides");
-      const prevBtn = document.querySelector(".prev");
-      const nextBtn = document.querySelector(".next");
-
-      let slideIndex = 0;
-      const slideWidth = slides.querySelector(".route").offsetWidth + 30; // Độ rộng slide + khoảng cách giữa các slide
-
-      function showSlides() {
-        slides.style.transform = `translateX(-${slideWidth * slideIndex}px)`;
-      }
-
-      function nextSlide() {
-        if (slideIndex < slides.children.length - 4) {
-          slideIndex++;
-          showSlides();
-        }
-      }
-
-      function prevSlide() {
-        if (slideIndex > 0) {
-          slideIndex--;
-          showSlides();
-        }
-      }
-
-      nextBtn.addEventListener("click", nextSlide);
-      prevBtn.addEventListener("click", prevSlide);
-    </script>
   </body>
 </html>

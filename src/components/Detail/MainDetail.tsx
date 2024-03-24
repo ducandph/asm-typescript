@@ -66,6 +66,7 @@ const MainDetail = () => {
                   <span className="radio-checked">
                     <input
                       type="radio"
+                      name="radio-group-name"
                       className="ant-radio-input"
                       defaultChecked
                     />
@@ -77,7 +78,11 @@ const MainDetail = () => {
                 </label>
                 <label className="ant-radio-wrapper">
                   <span className="radio-checked">
-                    <input type="radio" className="ant-radio-input" />
+                    <input
+                      type="radio"
+                      name="radio-group-name"
+                      className="ant-radio-input"
+                    />
                     <span className="ant-radio-inner" />
                   </span>
                   <span>
@@ -88,7 +93,11 @@ const MainDetail = () => {
                 </label>
                 <label className="ant-radio-wrapper">
                   <span className="radio-checked">
-                    <input type="radio" className="ant-radio-input" />
+                    <input
+                      type="radio"
+                      name="radio-group-name"
+                      className="ant-radio-input"
+                    />
                     <span className="ant-radio-inner" />
                   </span>
                   <span>
@@ -99,7 +108,11 @@ const MainDetail = () => {
                 </label>
                 <label className="ant-radio-wrapper">
                   <span className="radio-checked">
-                    <input type="radio" className="ant-radio-input" />
+                    <input
+                      type="radio"
+                      name="radio-group-name"
+                      className="ant-radio-input"
+                    />
                     <span className="ant-radio-inner" />
                   </span>
                   <span>
@@ -110,7 +123,11 @@ const MainDetail = () => {
                 </label>
                 <label className="ant-radio-wrapper">
                   <span className="radio-checked">
-                    <input type="radio" className="ant-radio-input" />
+                    <input
+                      type="radio"
+                      name="radio-group-name"
+                      className="ant-radio-input"
+                    />
                     <span className="ant-radio-inner" />
                   </span>
                   <span>
@@ -119,7 +136,11 @@ const MainDetail = () => {
                 </label>
                 <label className="ant-radio-wrapper">
                   <span className="radio-checked">
-                    <input type="radio" className="ant-radio-input" />
+                    <input
+                      type="radio"
+                      name="radio-group-name"
+                      className="ant-radio-input"
+                    />
                     <span className="ant-radio-inner" />
                   </span>
                   <span>
