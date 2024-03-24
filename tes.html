@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt vé</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#">
+                <img src="logo.png" alt="Logo">
+            </a>
+            <h1>Đặt vé</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form action="#">
+                <div class="form-group">
+                    <label for="loai-hinh-du-lich">Loại hình du lịch</label>
+                    <select name="loai-hinh-du-lich" id="loai-hinh-du-lich">
+                        <option value="xe-khach">Xe khách</option>
+                        <option value="may-bay">Máy bay</option>
+                        <option value="tau-hoa">Tàu hỏa</option>
+                        <option value="thue-xe">Thuê xe</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="noi-xuat-phat">Nơi xuất phát</label>
+                    <input type="text" name="noi-xuat-phat" id="noi-xuat-phat">
+                </div>
+                <div class="form-group">
+                    <label for="noi-den">Nơi đến</label>
+                    <input type="text" name="noi-den" id="noi-den">
+                </div>
+                <div class="form-group">
+                    <label for="ngay-di">Ngày đi</label>
+                    <input type="date" name="ngay-di" id="ngay-di">
+                </div>
+                <div class="form-group">
+                    <label for="ngay-ve">Ngày về</label>
+                    <input type="date" name="ngay-ve" id="ngay-ve">
+                </div>
+                <button type="submit">Tìm kiếm</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Copyright &copy; 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
