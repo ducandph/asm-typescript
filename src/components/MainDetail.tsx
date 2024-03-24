@@ -1,6 +1,7 @@
 const MainDetail = () => {
   return (
     <>
+    
       <div className="container_detail">
         <div className="book1">
           <div className="book1ing">
@@ -233,7 +234,7 @@ const MainDetail = () => {
                     </div>
                     <div>
                       <div className="seat-available ">Còn 6 chỗ trống</div>
-                      <div className="route-detail">Chọn chuyến</div>
+                      <a href="/pay"><div className="route-detail">Chọn chuyến</div></a>
                       <p className="no-prepayment">
                         Không cần thanh toán trước
                       </p>

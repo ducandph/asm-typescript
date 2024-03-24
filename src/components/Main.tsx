@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import Card from "./Card";
+import Promotion from "./Promotion";
 const Main = () => {
   return (
     <div>
@@ -6,7 +7,7 @@ const Main = () => {
         <h2 className="main-name">Tuyến đường phổ biến</h2>
         <div className="slider">
           <div className="slides">
-            <div className="route">
+            {/* <div className="route">
               <Link to="/detail">
                 <img src="../img/from1.png" alt="" />
               </Link>
@@ -18,6 +19,7 @@ const Main = () => {
                 </p>
               </div>
             </div>
+
             <div className="route">
               <Link to="/detail">
                 {" "}
@@ -31,6 +33,7 @@ const Main = () => {
                 </p>
               </div>
             </div>{" "}
+
             <div className="route">
               <Link to="/detail">
                 {" "}
@@ -42,6 +45,7 @@ const Main = () => {
                 <p className="price">Từ 200.000₫</p>
               </div>
             </div>{" "}
+
             <div className="route">
               <Link to="/detail">
                 <img src="../img/from4.png" alt="" />
@@ -51,7 +55,11 @@ const Main = () => {
                 <h4 className="from-name">Sài Gòn - Phan Thiết</h4>
                 <p className="price">Từ 100.000₫</p>
               </div>
-            </div>
+            </div> */}
+            <Card />
+            <Card />
+            <Card />
+            <Card />
           </div>
         </div>
       </div>
@@ -60,7 +68,7 @@ const Main = () => {
         <h2>Ưu đãi nổi bật</h2>
         <div className="pr-container">
           <div className="pr">
-            <div className="promotion-item">
+            {/* <div className="promotion-item">
               <div className="pr-content">
                 <img src="../img/uudai1.png" />
                 <div className="pr-text">
@@ -101,7 +109,11 @@ const Main = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
+            <Promotion />
+            <Promotion />
+            <Promotion />
+            <Promotion />
           </div>
         </div>
       </div>

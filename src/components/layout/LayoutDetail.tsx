@@ -1,6 +1,6 @@
-import Header from "../Detail/Header";
-import MainDetail from "../Detail/MainDetail";
-import Footer from "../Home/Footer";
+import Header from "../Header";
+import MainDetail from "../MainDetail";
+import Footer from "../Footer";
 
 import "../../../css/detail.css";
 const LayoutDetail = () => {

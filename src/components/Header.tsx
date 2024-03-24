@@ -1,5 +1,5 @@
-import Button from "../Home/Button";
-import Navigation from "../Home/Navigation";
+import Button from "./Button";
+import Navigation from "./Navigation";
 
 const Header = () => {
   return (

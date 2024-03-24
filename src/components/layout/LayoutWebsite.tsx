@@ -1,7 +1,7 @@
-import Header from "../Detail/Header";
-import Footer from "../Home/Footer";
-import Banner from "../Home/Banner";
-import Main from "../Home/Main";
+import Header from "../Header";
+import Footer from "../Footer";
+import Banner from "../Banner";
+import Main from "../Main";
 import "../../../css/app.css";
 import "../../../css/tailwind.css";
 const LayoutWebsite = () => {
