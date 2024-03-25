@@ -7,11 +7,11 @@ import "../../../css/tailwind.css";
 const LayoutWebsite = () => {
   return (
     <>
-      <Header />{" "}
+      <Header />
       <div className="container">
         <Banner />
         <Main />
-      </div>{" "}
+      </div>
       <Footer />
     </>
   );
