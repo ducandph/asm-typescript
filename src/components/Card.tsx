@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Card = () => {
   return (
     <div className="route">
-      <Link to="/detail">
+      <Link to="">
         <img src="../img/from1.png" alt="" />
       </Link>
 
